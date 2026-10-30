@@ -1,0 +1,24 @@
+{
+  "name": "mona-mayhem",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "lint": "eslint src astro.config.mjs",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^10.1.4",
+    "@astrojs/vercel": "10.0.8",
+    "astro": "^6.4.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.13.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "typescript-eslint": "^8.72.1"
+  }
+}
